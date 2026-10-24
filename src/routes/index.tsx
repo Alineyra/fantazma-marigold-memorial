@@ -87,7 +87,7 @@ function Veladora({ delay = 0 }: { delay?: number }) {
         <path d="M14 14 C19 24 19 32 14 42 C9 32 9 24 14 14Z" className="fill-flame" />
       </svg>
       <div className="relative h-36 w-24 overflow-hidden rounded-t-md rounded-b-lg border-4 border-secondary bg-wax shadow-[var(--glow-orange)]">
-        <img src={cara} alt="Fantazma en la veladora" loading="lazy" className="absolute inset-x-2 top-4 h-20 w-20 rounded-full border-2 border-primary object-cover" />
+        <img src={cara} alt="Fantazma en la veladora" loading="lazy" className="absolute left-1/2 top-4 h-20 w-20 -translate-x-1/2 rounded-full border-2 border-primary object-cover" />
         <p className="absolute inset-x-0 bottom-2 text-center font-script text-sm text-secondary">Fantazma</p>
       </div>
     </div>
