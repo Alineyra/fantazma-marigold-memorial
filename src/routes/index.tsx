@@ -122,7 +122,7 @@ function Nariz({ onPress }: { onPress: () => void }) {
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center gap-10 bg-background px-6 text-center" style={{ backgroundImage: "var(--gradient-night)" }}>
       <p className="font-display text-3xl text-primary glow-text md:text-5xl">Fantazma te espera</p>
       <button onClick={onPress} aria-label="Apretar la nariz de Fantazma para entrar" className="nose-pulse grow rounded-full">
-        <svg width="200" height="160" viewBox="0 0 200 160">
+        <svg width="200" height="160" viewBox="0 0 200 160" className="drop-shadow-[0_0_30px_var(--primary)]">
           <path d="M100 150 C40 150 10 110 14 70 C18 30 60 10 100 10 C140 10 182 30 186 70 C190 110 160 150 100 150Z" className="fill-nose" />
           <ellipse cx="66" cy="78" rx="20" ry="26" className="fill-background" transform="rotate(-20 66 78)" />
           <ellipse cx="134" cy="78" rx="20" ry="26" className="fill-background" transform="rotate(20 134 78)" />
